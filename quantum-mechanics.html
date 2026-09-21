@@ -57,6 +57,226 @@
         .article-title {
             margin: 0 0 35px;
             font-size: 34px;
+            line-height: 1.4;
+            font-weight: 500;
+        }
+
+        .article p {
+            margin: 0 0 24px;
+            font-size: 18px;
+            line-height: 2;
+        }
+
+        .quote {
+            margin: 35px 0;
+            padding-left: 22px;
+            border-left: 2px solid #cccccc;
+            font-size: 18px;
+            line-height: 1.8;
+            font-style: italic;
+            color: #444444;
+        }
+
+        .question {
+            margin: 35px 0;
+            font-size: 19px;
+            line-height: 2;
+        }
+
+        .source-image {
+            width: 100%;
+            height: auto;
+            margin: 35px 0 12px;
+            display: block;
+        }
+
+        .caption {
+            margin: 0 0 35px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #777777;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 20px;
+            border-top: 1px solid #eeeeee;
+            text-align: center;
+            font-size: 14px;
+            color: #777777;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 50px 22px;
+            }
+
+            .article-title {
+                font-size: 28px;
+            }
+
+            .article p,
+            .quote {
+                font-size: 17px;
+            }
+
+            .question {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="header">
+            <p class="site-name">Iasin H. Shishir</p>
+
+            <a class="back" href="index.html">
+                ← Back to home
+            </a>
+        </header>
+
+        <article class="article">
+
+            <h1 class="article-title">
+                কেউ কি সত্যিই কোয়ান্টাম মেকানিক্স বুঝে?
+            </h1>
+
+            <p>
+                কোয়ান্টাম মেকানিক্সের গণিত অসাধারণভাবে সফল। পরীক্ষার ফলাফলের সঙ্গে
+                এর পূর্বাভাস অবিশ্বাস্য নির্ভুলতায় মিলে যায়। অথচ ‘কোয়ান্টাম মেকানিক্সকে
+                বোঝা’ বলতে ঠিক কী বোঝায়, এই প্রশ্নটি এখনো পুরোপুরি মীমাংসিত নয়।
+            </p>
+
+            <p>
+                নোবেলজয়ী পদার্থবিজ্ঞানী রিচার্ড ফাইনম্যান ১৯৬৪ সালের এক বক্তৃতায় বলেছিলেন,
+            </p>
+
+            <div class="quote">
+                “I think I can safely say that nobody understands quantum mechanics.”
+            </div>
+
+            <p>
+                কথাটি তিনি আক্ষরিক অর্থে (কোয়ান্টাম মেকানিক্সের গণিত কেউ জানে না -
+                এমন অর্থে) বলেননি। বরং কোয়ান্টাম জগতের আচরণকে আমাদের পরিচিত কোনো
+                সহজাত ছবি বা দৈনন্দিন অভিজ্ঞতার সাহায্যে বোঝানো কতটা কঠিন,
+                সেটিই ছিল তাঁর বক্তব্যের মূল বিষয়।
+            </p>
+
+            <p>
+                কিন্তু এর চেয়েও গভীর একটি প্রশ্ন আছে।
+            </p>
+
+            <p class="question">
+                কেন গণিত প্রকৃতিকে এত ভালোভাবে বর্ণনা করে?
+            </p>
+
+            <p>
+                ১৯৬০ সালে নোবেলজয়ী পদার্থবিজ্ঞানী ইউজিন উইগনার তাঁর বিখ্যাত প্রবন্ধ
+                <i>The Unreasonable Effectiveness of Mathematics in the Natural Sciences</i>
+                এ এই অদ্ভুত বিষয়টি নিয়ে আলোচনা করেন। তাঁর ভাষায়,
+            </p>
+
+            <div class="quote">
+                “the enormous usefulness of mathematics in the natural sciences is
+                something bordering on the mysterious”
+            </div>
+
+            <p>
+                অর্থাৎ, প্রকৃতিবিজ্ঞানে গণিতের অসাধারণ কার্যকারিতা এমন এক বিষয়,
+                যার কোনো যুক্তিসংগত ব্যাখ্যা আমাদের জানা নেই।
+            </p>
+
+            <p>
+                আর বিষয়টি সত্যিই বিস্ময়কর।
+            </p>
+
+            <p>
+                গণিতবিদগণ অনেক সময় কোনো গাণিতিক কাঠামো তৈরি করেছেন সম্পূর্ণ
+                বিমূর্ত প্রয়োজনে। পরে দেখা গেছে, সেই একই কাঠামো প্রকৃতির গভীর কোনো
+                নিয়ম প্রকাশ করতে আশ্চর্যজনকভাবে উপযোগী।
+            </p>
+
+            <p>
+                কোয়ান্টাম মেকানিক্সে Hilbert space-এর মতো গাণিতিক কাঠামোর ব্যবহার
+                এর একটি অসাধারণ উদাহরণ। বিমূর্ত গণিতের বিকাশ এবং পরবর্তীতে
+                পদার্থবিজ্ঞানে তার গভীর প্রয়োগ - এই সম্পর্কটি গণিত ও প্রকৃতির
+                মধ্যে এক অদ্ভুত সংযোগের ইঙ্গিত দেয়।
+            </p>
+
+            <p>
+                তাহলে প্রশ্নটা দাঁড়ায়,
+            </p>
+
+            <p class="question">
+                গণিত কি কেবল আমাদের তৈরি করা একটি ভাষা, যা দিয়ে আমরা প্রকৃতিকে বর্ণনা করি?
+            </p>
+
+            <p class="question">
+                না কি এর চেয়েও গভীর কোনো সত্য আছে?
+            </p>
+
+            <p class="question">
+                আমরা কি মহাবিশ্বকে গণিতের সাহায্যে বর্ণনা করি,
+            </p>
+
+            <p class="question">
+                না কি কোনো অর্থে মহাবিশ্ব নিজেই গাণিতিক?
+            </p>
+
+            <img
+                src="wigner-article-1.jpg"
+                alt="Eugene P. Wigner's original article"
+                class="source-image"
+            >
+
+            <p class="caption">
+                Eugene P. Wigner, <i>The Unreasonable Effectiveness of Mathematics
+                in the Natural Sciences</i>, 1960.
+            </p>
+
+            <img
+                src="wigner-article-2.jpg"
+                alt="Second page of Eugene P. Wigner's original article"
+                class="source-image"
+            >
+
+        </article>
+
+        <footer>
+            © 2026 Iasin H. Shishir
+        </footer>
+
+    </main>
+
+</body>
+</html>            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 14px;
+            color: #777777;
+            text-decoration: none;
+        }
+
+        .back:hover {
+            color: #222222;
+        }
+
+        article {
+            margin-top: 40px;
+        }
+
+        .article-title {
+            margin: 0 0 35px;
+            font-size: 34px;
             line-height: 1.35;
             font-weight: 500;
         }
